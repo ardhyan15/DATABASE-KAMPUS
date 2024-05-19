@@ -226,7 +226,8 @@ INSERT INTO biodata (nim, nama, alamat) VALUES ('11223344','Gusti','Bekasi'),
 
 ```UPDATE biodata SET nim=11223346 WHERE nama='Ardhya';```
 
-![Screenshot (71)](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/b9a7816d-5359-4e30-bd63-24b9614cf863)
+![Screenshot (72)](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/215a017b-8c26-480a-9dee-9264f4efc590)
+
 
 ## 4. Menghapus data :
 
@@ -237,7 +238,7 @@ INSERT INTO biodata (nim, nama, alamat) VALUES ('11223344','Gusti','Bekasi'),
 ```
 DELETE FROM biodata WHERE nama='Ardhya';
 ```
-![Screenshot (71)](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/ae7d9da9-8b18-479e-8986-708e0c085a59)
+![Screenshot (73)](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/cd158d05-fc0b-44fb-a728-94692942bc34)
 
 
 # Apa bedanya penggunaan BETWEEN dan penggunaan operator >= dan <= ?
