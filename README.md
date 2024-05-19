@@ -30,7 +30,8 @@ CREATE TABLE mahasiswa (
 ## Tampilkan hasil Tabel :
 ```DESC mahasiswa;```
 
-![](foto/1.png)
+![1](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/c0aec7e2-6e58-4a10-b3d2-b5a511ec8a36)
+
 
 ## 2. Membuat tabel dosen :
 ```
