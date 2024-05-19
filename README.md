@@ -43,7 +43,8 @@ CREATE TABLE dosen (
 ## Tampilkan tabel :
 ```DESC dosen;```
 
-![](foto/2.png)
+![2](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/de356cae-066d-4656-9df8-26911d1d95f2)
+
 
 ## 3. Membuat tabel mata kuliah;
 ```
@@ -57,7 +58,8 @@ CREATE TABLE matakuliah (
 ## Tampilkan tabel :
 ```DESC matakuliah;```
 
-![](foto/3.png)
+![3](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/11b68aad-12e8-438c-94b8-d43910ab87a6)
+
 
 ## 4. Membuat tabel jadwal mengajar :
 ```
@@ -76,7 +78,8 @@ CREATE jadwalmengajar (
 # Tampilkan tabel :
 ```DESC jadwalmengajar;```
 
-![](foto/4.png)
+![4](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/e1360ab2-08cf-4a78-8972-ed08b1928418)
+
 
 ## 5. Membuat tabel KRS mahasiswa :
 ```
@@ -95,7 +98,8 @@ CREATE TABLE KRSMahasiswa (
 ## Tampilkan tabel :
 `DESC krsmahasiswa;`
 
-![](foto/5.png)
+![5](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/d3f7f241-c2a0-44d0-ab2c-a3f72ab2e6af)
+
 
 # Soal Latihan Praktikum
 
@@ -126,31 +130,36 @@ INSERT INTO mahasiswa (nim, nama, jenis_kelamin, tgl_lahir, jalan, kota, kodepos
 
 ```SELECT * FROM mahasiswa;```
 
-![](foto/6.png)
+![6](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/4734e464-a889-4fa5-bcbe-8a0aa6e08c25)
+
 
 ## - Mengubah data tanggal lahir Mahasiswa yang bernama Ari menjadi : 1979-08-31 menggunakan kode berikut :
 
 ```UPDATE mahasiswa SET tgl_lahir='1979-08-31' WHERE nama='Ari Santoso;```
 
-![](foto/7.png)
+![7](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/595ad1b3-cf4e-415b-af91-b48844446132)
+
 
 ## - Menampilkan satu baris / record data yang telah diubah tadi yaitu record dengan nama Ari saja dengan cara sebagai berikut :
 
 ```SELECT * FROM mahasiswa WHERE nama='Ari Santoso;```
 
-![](foto/8.png)
+![8](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/d6b00c9a-6648-4a82-9c1e-8550b4abdf82)
+
 
 ## - Menghapus Mahasiswa yang bernama Dina dengan cara sebagai berikut:
 
 ```DELETE FROM mahasiswa WHERE nama='Dina Marlina';```
 
-![](foto/9.png)
+![9](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/d44226da-3465-467a-ac66-363952933411)
+
 
 ## - Menampilkan record atau data yang tanggal kelahirannya lebih dari atau sama dengan 1996-1-2 dengan cara sebagai berikut :
 
 ```SELECT * FROM mahasiswa WHERE tgl_lahir<='1996-01-02';```
 
-![](foto/10.png)
+![10](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/9ed6adad-cab0-4691-91f9-e2a24fee353b)
+
 
 ## - Menampilkan semua Mahasiswa yang berasal dari Bekasi dan berjenis kelamin perempuan dengan cara sebagai berikut :
 
@@ -158,26 +167,30 @@ INSERT INTO mahasiswa (nim, nama, jenis_kelamin, tgl_lahir, jalan, kota, kodepos
 SELECT * FROM mahasiswa WHERE kota='bekasi' AND jenis_kelamin='Perempuan';
 ```
 
-![](foto/12.png)
+![12](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/d7cc5b62-8d63-42b4-853c-aca70d093767)
+
 
 ## -  Menampilkan semua Mahasiswa yang berasal dari Bekasi dengan kelamin laki-laki atau Mahasiswa yang berumur lebih dari 22 tahun dengan kelamin wanita dengan cara sebagai berikut :
 ```
 SELECT * FROM mahasiswa WHERE kota='Bekasi' AND jenis_kelamin='Laki-laki' 
 OR tgl_lahir<='2002-4-22' AND jenis_kelamin='Perempuan';
 ```
-![](foto/11.png)
+![11](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/8461fbcc-a283-4b3f-bb65-187f4a497b09)
+
 
 ## - Menampilkan data nama dan jalan Mahasiswa saja dari tabel tersebut dengan cara sebagai berikut :
 
 ```SELECT nama, jalan FROM mahasiswa;```
 
-![](foto/13.png)
+![13](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/c344d48d-0c4d-4652-9751-aea5160d2ed3)
+
 
 ## - Menampilkan data Mahasiswa terurut berdasarkan nama dengan cara sebagai berikut :
 
 ```SELECT * FROM mahasiswa ORDER BY nama ASC;```
 
-![](foto/14.png)
+![14](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/3aeaca50-c292-4e1b-a2bf-7437a22a7b92)
+
 
 # Evaluasi dan Pertanyaan
 
@@ -189,10 +202,11 @@ OR tgl_lahir<='2002-4-22' AND jenis_kelamin='Perempuan';
 *Contoh :*
 
 ```
-INSERT INTO biodata (nim, nama, alamat) VALUES ('11223344','Yoga','Bekasi'),
-('11223345', 'Muhammad', 'Jakarta');
+INSERT INTO biodata (nim, nama, alamat) VALUES ('11223344','Gusti','Bekasi'),
+('11223345', 'Ardhya', 'Jakarta');
 ```
-![](foto/15.png)
+![Screenshot (71)](https://github.com/ardhyan15/DATABASE-KAMPUS/assets/98029961/0dc304b6-46b6-4da5-942a-304f6ffc13e7)
+
 
 ## 2. Menampilkan data :
 
